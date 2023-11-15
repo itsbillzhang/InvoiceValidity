@@ -145,7 +145,7 @@ remote_table = (spark.read
   .format("sqlserver")
   .option("host", "anomalydetection.database.windows.net")
   .option("user", "h662zhan@uwaterloo.ca")
-  .option("password", "Supacha0s!")
+  .option("password", "<REDACTED>")
   .option("database", "Invoices")
   .option("dbtable", "dbo.Vendor") # (if schemaName not provided, default to "dbo")
   .load()
